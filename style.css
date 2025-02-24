@@ -1,0 +1,100 @@
+
+html, body {
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+}
+h1, h2{text-align: center;}
+
+.about-container{display: flex;
+justify-content: space-around;
+gap: 50px;
+border: 1px solid #ccc;
+border-radius: 8px;
+background-color: #f9f9f9;
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+padding: 20px;
+}
+
+.projects-container{
+    display: flex;
+    gap: 20px; /* Space between projects */
+    justify-content: space-between; /* Distributes space between projects */
+}
+
+.project, .contact, .skills {
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.skills {padding-bottom: 20px;}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project p {
+    text-align: justify;
+}
+
+.project a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
