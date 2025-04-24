@@ -51,7 +51,7 @@ h2.tagline {
     margin-top: -10px;
 }
 
-.hire-me-btn {
+.hire-me-btn, .resumebutton {
     background-color: #d81b60;
     color: white;
     font-size: 1.2rem;
@@ -156,3 +156,20 @@ footer {
     bottom: 0;
 }
 
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #d81b60;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+  }
+  #backToTop:hover {
+    background: #c2185b;
+  }
